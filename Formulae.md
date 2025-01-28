@@ -108,12 +108,33 @@ sorted_indices = np.argsort(arr) #[1 3 0 2 4] - indices that would sort the arra
 
 # IO
 
+user_input = input("Please enter something")
+
+input = int(input("Enter number"))
+
+height = float(input("Enter height"))
+
+fruits = input("Enter CSV").split(",")
+
+tuple_input = tuple(map(int, input("Enter").split(",")))
+
+dict_input: key, value = input().split(",")
+
+Input with default value: Name = input("Enter") or "John"
+
+
+# File handling
+
+with open("input.txt", r) as file:
 
 
 
+# JSON handling
 
+import json
 
-
+json_input = input("Enter")
+parsed_data = json.loads(json_input)
 
 
 
