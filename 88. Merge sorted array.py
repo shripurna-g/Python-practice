@@ -18,11 +18,11 @@ class Solution:
             
             p -=1
 
-            #remaining elements in p2
-            while p2 >= 0:
+        #remaining elements in p2
+        while p2 >= 0:
 
-                nums1[p] = nums2[p]
-                p2 -=1
-                p -=1
+            nums1[p] = nums2[p2]
+            p2 -=1
+            p -=1
         
         
