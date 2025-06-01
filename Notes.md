@@ -1,3 +1,5 @@
+np.where()
+
 my_dict = defaultdict(list)
 
 sorted_word = "".join(sorted(word))
