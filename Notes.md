@@ -1,3 +1,5 @@
+acc_train = np.mean(y_pred_train==y_train)
+
 np.where()
 
 my_dict = defaultdict(list)
