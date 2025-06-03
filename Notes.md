@@ -1,3 +1,5 @@
+Explore plotting beauty - matplotlib etc
+
 acc_train = np.mean(y_pred_train==y_train)
 
 np.where()
