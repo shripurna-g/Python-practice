@@ -15,3 +15,11 @@ list(my_dict.values())
 for col in df.select_dtypes(include='object').columns:
 
 joblib?
+
+Move each section into its own file (train.py, preprocessing.py, utils.py)
+
+Add CLI support with argparse for custom training
+
+Add support for more logging formats (e.g., JSON, MLflow, etc.)
+
+Add test cases in tests/
