@@ -23,3 +23,6 @@ Add CLI support with argparse for custom training
 Add support for more logging formats (e.g., JSON, MLflow, etc.)
 
 Add test cases in tests/
+
+jsonify
+
