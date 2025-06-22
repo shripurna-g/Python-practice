@@ -18,6 +18,8 @@ joblib?
 
 Move each section into its own file (train.py, preprocessing.py, utils.py)
 
+http://127.0.0.1:5000/ -- significance? networking?
+
 Add CLI support with argparse for custom training
 
 Add support for more logging formats (e.g., JSON, MLflow, etc.)
